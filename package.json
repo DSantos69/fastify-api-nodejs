@@ -1,0 +1,19 @@
+{
+    "name": "fastify-api-nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/main.js",
+    "module": "src",
+    "type": "module",
+    "scripts": {
+        "start": "node src/main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "David Santos",
+    "license": "ISC",
+    "dependencies": {
+        "@fastify/mongodb": "^6.2.0",
+        "fastify": "^4.13.0",
+        "fastify-plugin": "^4.5.0"
+    }
+}
